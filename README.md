@@ -12,3 +12,6 @@ Contains host of MATLAB code (`.m` files) for formatting and analysis of packagi
 
 #### Data
 Contains a handful of force-clamp position and force measurements for different complexes for testing analysis code. 
+
+## Required toolboxes in MATLAB
+Signal Processing Toolbox
