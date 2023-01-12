@@ -1,6 +1,6 @@
 # Tweezers-Packaging-Data-Analysis
 
-This repository contains MATLAB code used for analysis of data from optical tweezer measurements of DNA packaging by bacteirophage phi29.<br/>
+This repository contains MATLAB code used for analysis of data from optical tweezer measurements of DNA packaging by bacteirophage phi29. The analysis code presented here are are the framework for sucessful analysis of experimental data - each experiment will have it's own unique characteristics that will call for adjustments to be made. <br/>
 
 **Instrumentation**: Measurements are done using a dual-trap optical tweezer instrument. One trap's lateral position is controlled using a piezoelectric mirror and the control signal to the mirror is recorded (`vp`). Beam deflection and intensity is captured by a silicon position sensing detector (PSD), amplified, and passed through a 300 Hz low-pass filter (x-displacement reocrded as `vx`). The code in this repository and the raw data files correspond to measurements in "force-clamp" mode, where the position of the movable trap is adjusted to keep the force on the DNA tether constant. The LabVIEW code that controls the instrument and handles data acquisition runs at 1 kHz in force clamp mode.  
 
